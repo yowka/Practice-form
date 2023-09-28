@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+</head>
+<body>
+<div class="wrapper">
+    <form method="get">
+        <div>
+            <label for="name">Имя</label>
+            <input id="name" >
+        </div>
+        <div>
+            <label for="surname">Фамилия</label>
+            <input id="surname">
+        </div>
+        <div>
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel" placeholder="+7 *** *** ** **" >
+        </div>
+        <div>
+            <label for="pass">Пароль</label>
+            <input id="pass" type="password">
+        </div>
+        <div>
+            <label for="date">День рождения</label>
+            <input id="date" type="date">
+        </div>
+        <div>
+            <label>Статус</label>
+            <p><input id="status1" type="checkbox" name="status1" value="yes">Женат</p>
+            <p><input id="status2" type="checkbox" name="status2" value="yes">Холост</p>
+        </div>
+        <div>
+            <label for="lovecolor">Любимый цвет</label>
+            <input type="color" id="lovecolor">
+        </div>
+        <div>
+            <label for="datetime">Дата и время</label>
+            <input id="datetime" type="datetime-local">
+        </div>
+        <div>
+            <label for="email">Почта</label>
+            <input id="email" type="email">
+        </div>
+        <div>
+            <label for="foto">Ваше фото</label>
+            <input id="foto" type="image">
+        </div>
+        <div>
+            <label for="passport">Паспорт</label>
+            <input id="passport" type="file">
+        </div>
+        <div>
+            <label for="age">Возраст</label>
+            <input id="age" type="range" min="0" max="100">
+        </div>
+        <div>
+            <label for="music">Любимая музыка</label>
+            <input id="music" type="file">
+        </div>
+        <div>
+            <label for="establishment">Учреждение</label>
+            <input id="establishment" type="text">
+        </div>
+        <div>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
